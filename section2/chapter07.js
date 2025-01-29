@@ -17,7 +17,7 @@ const poppedItem = arr2.pop();
 // 배열의 맨 앞에 있는 요소를 제거, 반환
 let arr3 = [1, 2, 3];
 const shiftedItem = arr3.shift();
-
+ 
 
 // 4. unshift : push보다 속다가 느림
 // 배열의 맨 앞에 새로운 요소를 추가하는 메서드

@@ -27,4 +27,4 @@ const func = ({name, age, hobby, extra}) => {
     console.log(name, age, hobby, extra)
 }
 
-func(person);  
+func(person);

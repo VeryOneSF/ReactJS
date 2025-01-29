@@ -39,7 +39,7 @@ for (let key of keys){
 let values = Object.values(person);
 for (let i = 0; i < values.length; i++){
     // console.log(values[i]) 
-}    
+}     
 
 for(let value of values) {
     // console.log(value)

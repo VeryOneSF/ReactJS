@@ -40,4 +40,4 @@ function funcB(...rest){
 }
 
 funcB(obj1);
-
+ 
