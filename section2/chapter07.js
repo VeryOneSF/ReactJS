@@ -23,7 +23,7 @@ const shiftedItem = arr3.shift();
 // 배열의 맨 앞에 새로운 요소를 추가하는 메서드
 // 변경된 배열의 길이를 반환
 let arr4 = [1, 2 ,3];
-const newLength2 = arr4.unshift(0);
+const newLength2 = arr4.unshift(0); 
 
 // 5. slice
 // 마치 가위처럼, 배열의 특정 범위를 잘라내서 새로운 배열로 반환

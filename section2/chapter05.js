@@ -38,7 +38,7 @@ for (let key of keys){
 // -> 객체에서 value 값들만 뽑아서 새로운 배열로 반환
 let values = Object.values(person);
 for (let i = 0; i < values.length; i++){
-    // console.log(values[i])
+    // console.log(values[i]) 
 }    
 
 for(let value of values) {

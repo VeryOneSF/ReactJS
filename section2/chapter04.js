@@ -36,7 +36,7 @@ funcA(...arr1)
 // 매개변수를 배열에 담아서 반환
 
 function funcB(...rest){
-    console.log(rest);
+    console.log(rest); 
 }
 
 funcB(obj1);
