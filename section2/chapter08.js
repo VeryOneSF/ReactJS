@@ -30,7 +30,7 @@ let objectArr = [
     {age : 35}
 ]
 
-console.log(objectArr.indexOf({age : 24})) // -1 : 얕은 비교 (참조값을 기준으로 비교)
+// console.log(objectArr.indexOf({age : 24})) // -1 : 얕은 비교 (참조값을 기준으로 비교)
 objectArr.findIndex(
     (item) => item.age === 24              // 프로퍼티로 비교 가능
 )
@@ -44,8 +44,9 @@ let arr4 = [1, 2, 3];
 // });
 
 const findedIndex = arr4.findIndex(
-    (item) => {item === 2}
+    (item) => item === 2
 );
+console.log(findedIndex)
 
 // 5. find
 // 모든 요소를 순회하면서 콜백함수를 만족하는 요소를 찾는데, 요소를 그대로 반환

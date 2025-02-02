@@ -34,7 +34,8 @@ arr3.sort((a, b) => {
     }
 });
 
-// 4. toSorted (가장 최근에 추가된 최신 함수수)
+
+// 4. toSorted (가장 최근에 추가된 최신 함수)
 // 정렬된 새로운 배열을 반환하는 메서드
 let arr5 = ["c", "a", "b"];
 const sorted = arr5.toSorted();
